@@ -54,7 +54,8 @@ bir frontend mimarisi kurmak.
 - Gerçek e-ticaret frontend geliştirme deneyimi
 
  ## EKRAN GÖRÜNTÜSÜ
- 
+ ![gif](https://github.com/user-attachments/assets/e6e787d8-4d67-4839-937c-4bcad57dd65d)
+
  
 
 

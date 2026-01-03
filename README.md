@@ -1,72 +1,60 @@
-# 🛍️ Shoes E-Commerce
+# 🛒 Shoes E-Commerce
 
-Shoes E-Commerce, ayakkabı ürünleri üzerine kurulmuş **full-stack bir e-ticaret uygulamasıdır**.  
-Frontend ve backend tamamen ayrık yapıdadır ve gerçek dünya senaryolarına uygun şekilde geliştirilmiştir.
+Yetkilendirme sistemi, admin & kullanıcı panelleri ve TanStack Query
+kullanılarak geliştirilmiş modern bir e-ticaret frontend uygulaması.
 
----
+## 🎯 Proje Amacı
+Gerçek dünya e-ticaret senaryolarına uygun;
+- Rol bazlı yetkilendirme
+- Tip güvenli
+- Performanslı
+- Ölçeklenebilir
 
-## 🚀 Özellikler
+bir frontend mimarisi kurmak.
 
-- Kullanıcı kayıt & giriş sistemi (JWT)
+## 🧩 Özellikler
 - Authentication & Authorization
-- Protected API endpoint’leri
-- Ayakkabı ürünleri için CRUD işlemleri
-- MongoDB ile veri yönetimi
-- Seed script ile örnek veri üretimi
-- Modern ve responsive kullanıcı arayüzü
+- Admin & kullanıcı için ayrı paneller
+- Rol bazlı protected routes
+- Dinamik ürün listeleme
+- Ürün detay sayfaları
+- TanStack Query ile server-state yönetimi
+- Cache & refetch mekanizmaları
+- Responsive tasarım
 
----
-
-## 🧰 Kullanılan Teknolojiler
-
-### Frontend
+## 🔧 Kullanılan Teknolojiler
 - React
 - TypeScript
+- Vite
 - TailwindCSS
 - React Router DOM
+- TanStack Query (React Query)
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB (Mongoose)
-- JWT (JSON Web Token)
-- MVC mimarisi
-- Auth middleware
+## 💡 Teknik Detaylar
+- Rol bazlı yetkilendirme mimarisi
+- Admin & kullanıcı için ayrı route yapıları
+- TanStack Query ile:
+  - API cache yönetimi
+  - Loading & error state kontrolü
+- TypeScript ile tip güvenli veri akışı
+- Component bazlı yapı
+- Clean code & ölçeklenebilir klasörleme
 
----
+## 📁 Proje Yapısı
+- components → UI bileşenleri
+- pages → Admin & kullanıcı sayfaları
+- hooks → Custom hook yapıları
+- services → API işlemleri
+- types → TypeScript tip tanımları
 
-## 🧠 Mimari Yapı
-
-- Frontend & Backend ayrık yapı
-- Controller / Model / Middleware düzeni
-- Temiz klasörleme
-- Ölçeklenebilir API tasarımı
-
----
-
-## 📂 Backend Yapısı (Özet)
-
-- `/models` → MongoDB schema & modeller
-- `/middleware` → Auth & yetkilendirme
-- `/routes` → API endpoint tanımları
-- `/seed` → Örnek veri üretimi
-- `/server.js` → Express server yapılandırması
-
----
-
-## ⚙️ Kurulum
-
-# Backend
-cd api
-npm install
-npm run dev
-
-# Frontend
-npm install
-npm run dev
-
+## 🚀 Kazanımlar
+- Yetkilendirme & rol bazlı erişim
+- Admin panel mimarisi
+- TanStack Query ile profesyonel veri yönetimi
+- Gerçek e-ticaret frontend geliştirme deneyimi
 
  ## EKRAN GÖRÜNTÜSÜ
+ 
  
 
 
